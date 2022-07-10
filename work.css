@@ -1,0 +1,38 @@
+.working{
+    position:absolute;
+    margin-top:4rem;
+    right:12rem;
+}
+
+#work .heading2{
+    color:var(--primary);
+    font-family:'Georgia';
+    font-weight:800;
+    margin-top:2rem;
+    /* margin-left:8rem; */
+    text-decoration:underline;
+    letter-spacing:0.2rem;
+}
+#work .container{
+    /* gap:2rem; */
+    flex-wrap:wrap;
+}
+#work .container .project{
+    margin-top:4rem;
+    margin-left:4rem;
+    flex:25%;
+    flex-direction: column;
+    animation: a1 3s infinite ease-in-out;
+}
+@media screen and (max-width:1157px){
+    #work{
+        display:flex;
+    }
+    #work .container .project{
+        margin-left:0;
+    }
+    #work .heading2{
+        margin:0;
+        margin-top:4rem;
+    }
+}

@@ -1,0 +1,54 @@
+#about-me .container{
+    display: block;
+    gap:4rem;
+    justify-content: space-between;
+}
+
+.right .info{
+    font-family:'Georgia';
+    color:black;
+    font-weight:200;
+    letter-spacing: normal;
+    margin:0;
+
+}
+.right .main-head{
+    margin:0;
+}
+.right h1{
+    font-size:3rem;
+}
+.right .heading{
+    gap:0;
+}
+.right .description{
+    font-family:'Georgia';
+    font-weight:100;
+    font-size:1rem;
+    letter-spacing: normal;
+    width:30vw;
+    line-height: normal;
+    color:black;
+}
+.el2{
+    width:10vw;
+}
+
+@media screen and (max-width:1157px){
+    #about-me .container{
+        flex-direction:column;
+        gap:0rem;
+    }
+    .right .description{
+        min-width:50vw;
+    }
+    .right h1{
+        font-size:2rem;
+        line-height:2rem;
+    }
+    .left img{
+        height:150px;
+        margin:0;
+    }
+
+}
